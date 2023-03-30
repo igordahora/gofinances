@@ -53,3 +53,7 @@ yarn-error.log
 .expo/
 web-build/
 dist/
+
+# Yarn & Npm
+package-lock.json
+yarn.lock
