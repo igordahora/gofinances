@@ -15,7 +15,7 @@ import theme from './src/global/styles/theme'
 import { Register } from './src/screens/Register';
 
 export default function App() {
-  
+
   const [fontsloaded] = useFonts({
     Poppins_400Regular,
     Poppins_500Medium,
@@ -23,7 +23,7 @@ export default function App() {
   });
 
   /** Aguardar o carregamento das fontes */
-  if(!fontsloaded){
+  if (!fontsloaded) {
     return <AppLoading />
   }
 
